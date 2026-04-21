@@ -2,12 +2,14 @@
 Guia prático de LaTeX para iniciantes (PT-BR)
 # LaTeX para Iniciantes: Como Criar Documentos Acadêmicos do Zero
 
+Este guia foi criado para ajudar iniciantes a sair do zero e produzir seu primeiro documento acadêmico em LaTeX de forma rápida e prática.
+
 ## Contexto
 Muitos iniciantes encontram dificuldade ao começar com LaTeX por se tratar de uma linguagem técnica baseada em comandos, diferente de editores visuais tradicionais. Além disso, a maior parte dos materiais disponíveis em português é extensa e voltada a um uso acadêmico mais avançado, o que dificulta um início rápido e prático. Este guia propõe uma abordagem direta, com foco em quem precisa criar um documento acadêmico simples em pouco tempo, sem se aprofundar em recursos avançados.
 
 ## NotebookLM
 
-Este projeto foi desenvolvido com o apoio do NotebookLM para a organização do conteúdo, testes de prompts e geração de materiais complementares.
+Este projeto utilizou o NotebookLM como ferramenta de apoio para organização das fontes, testes de prompts e geração de materiais complementares, como infográficos, mapas mentais e flashcards.
 
 Acesse o caderno completo: [https://notebooklm.google.com/notebook/675ab74c-4e14-4ece-90a9-a6773367350a]
 
@@ -167,3 +169,13 @@ Erros comuns:
 - Escrever uma fórmula matemática em LaTeX (modo inline ou destacado)
 - Adicionar uma seção de referências ou bibliografia em um documento LaTeX 
 
+## Materiais Gerados
+
+- Infográfico: [https://notebooklm.google.com/notebook/675ab74c-4e14-4ece-90a9-a6773367350a?artifactId=cdd69f27-6d60-45a1-a93f-6a865300ed34]
+- Vídeo: [https://notebooklm.google.com/notebook/675ab74c-4e14-4ece-90a9-a6773367350a?artifactId=dc09735c-162f-4d01-a629-99149b923f1b]
+- Flashcards: [https://notebooklm.google.com/notebook/675ab74c-4e14-4ece-90a9-a6773367350a?artifactId=27f0dd97-edbe-499a-8401-62dbc7f34cf8]
+
+
+## Conclusão
+
+Este projeto demonstrou a aplicação de IA como ferramenta de aprendizagem ativa, combinando curadoria de fontes, engenharia de prompts e organização do conhecimento para construir um guia prático de LaTeX.

@@ -113,19 +113,20 @@ No LaTeX, listas são criadas com os ambientes itemize (marcadores) e enumerate 
 - Para criar subníveis, basta inserir uma lista dentro de outra
 
 Exemplo:
+
 \begin{itemize}
     \item Frutas Tropicais:
     \begin{enumerate}
         \item Manga
         \item Abacaxi
     \end{enumerate}
-
     \item Legumes:
     \begin{enumerate}
         \item Cenoura
         \item Batata
     \end{enumerate}
-\end{itemize}  
+\end{itemize}
+
 - O LaTeX ajusta automaticamente o estilo e o recuo conforme o nível da lista
 
 

@@ -145,9 +145,7 @@ Exemplo:
 
 A compilação de um arquivo .tex transforma o código em um documento final (geralmente PDF), utilizando compiladores como pdflatex.
 - Em editores online, como o Overleaf, basta clicar no botão de compilação
-- Em editores locais, é possível usar atalhos ou comandos no terminal, como: 
-
-`pdflatex exemplo.tex`
+- Em editores locais, é possível usar atalhos ou comandos no terminal, como: `pdflatex exemplo.tex`
 	
 Erros comuns:
   

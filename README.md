@@ -73,6 +73,7 @@ O prompt passou a produzir um resultado prático e reutilizável, alinhado com o
 
 Exemplo mínimo:
 
+```latex
 % --- PREÂMBULO ---
 \documentclass{article}                  % Define o tipo de documento
 \usepackage[utf8]{inputenc}              % Codificação de caracteres
@@ -86,34 +87,43 @@ Exemplo mínimo:
 Olá, mundo!
 
 \end{document}
-
+```
 
 ### 1. Elementos essenciais
 
 Esses são os elementos mínimos para estruturar um documento simples:  
 - Título e metadados  
-Definidos no preâmbulo e exibidos com \maketitle. 
+Definidos no preâmbulo e exibidos com `\maketitle`. 
+
+```latex
 \title{Meu Documento}
 \author{Autor}
 \date{\today}
+```
 - Seções  
 Utilizadas para organizar o conteúdo do documento. 
+
+```latex
 \section{Introdução}
 Este é um parágrafo de exemplo.
+```
 - Texto simples  
 Basta escrever diretamente no corpo do documento. 
-Este é um texto simples em LaTeX.
 
+```latex
+Este é um texto simples em LaTeX.
+```
 
 ### 2. Listas
 
 No LaTeX, listas são criadas com os ambientes itemize (marcadores) e enumerate (numeração).  
-- Use \begin{...} e \end{...} para definir o início e o fim da lista 
-- Utilize \item para cada elemento 
+- Use `\begin{...}` e `\end{...}` para definir o início e o fim da lista 
+- Utilize `\item` para cada elemento 
 - Para criar subníveis, basta inserir uma lista dentro de outra
 
 Exemplo:
 
+```latex
 \begin{itemize}
     \item Frutas Tropicais:
     \begin{enumerate}
@@ -126,6 +136,7 @@ Exemplo:
         \item Batata
     \end{enumerate}
 \end{itemize}
+```
 
 - O LaTeX ajusta automaticamente o estilo e o recuo conforme o nível da lista
 
@@ -136,29 +147,29 @@ A compilação de um arquivo .tex transforma o código em um documento final (ge
 - Em editores online, como o Overleaf, basta clicar no botão de compilação
 - Em editores locais, é possível usar atalhos ou comandos no terminal, como: 
 
-pdflatex exemplo.tex
+`pdflatex exemplo.tex`
 	
 Erros comuns:
   
-- Undefined control sequence   
+- `Undefined control sequence`   
   - O que é: ocorre quando o LaTeX não reconhece um comando (erro de digitação ou pacote ausente) 
-  - Como resolver: corrigir o comando ou incluir o pacote necessário com \usepackage{...} 
-- Missing $ inserted
+  - Como resolver: corrigir o comando ou incluir o pacote necessário com `\usepackage{...}` 
+- `Missing $ inserted`
   - O que é: ocorre ao usar elementos matemáticos fora do modo matemático
-  - Como resolver: envolver a expressão com $...$
+  - Como resolver: envolver a expressão com `$...$`
   - Dica: compile o documento com frequência para identificar erros rapidamente 
 
 
 ## Glossário
 
 - LaTeX: Sistema de composição de documentos baseado em comandos, que permite focar no conteúdo enquanto a formatação é automatizada.
-- Preâmbulo: Parte inicial do arquivo (antes de \begin{document}), onde são definidas configurações, classe e pacotes.
-- Corpo do documento: Conteúdo principal entre \begin{document} e \end{document}.
-- Comando: Instrução iniciada por \, usada para formatar texto ou executar funções específicas.
-- Ambiente: Estrutura definida por \begin{} e \end{}, usada para organizar elementos como listas e tabelas.
-- Classe de documento: Definida por \documentclass, determina o tipo e o layout do documento.
-- Pacote: Extensão carregada com \usepackage{}, que adiciona funcionalidades ao LaTeX.
-- Modo matemático: Formato usado para escrever expressões matemáticas, geralmente entre $...$. 
+- Preâmbulo: Parte inicial do arquivo (antes de `\begin{document}`), onde são definidas configurações, classe e pacotes.
+- Corpo do documento: Conteúdo principal entre `\begin{document}` e `\end{document}`.
+- Comando: Instrução iniciada por `\`, usada para formatar texto ou executar funções específicas.
+- Ambiente: Estrutura definida por `\begin{}` e `\end{}`, usada para organizar elementos como listas e tabelas.
+- Classe de documento: Definida por `\documentclass`, determina o tipo e o layout do documento.
+- Pacote: Extensão carregada com `\usepackage{}`, que adiciona funcionalidades ao LaTeX.
+- Modo matemático: Formato usado para escrever expressões matemáticas, geralmente entre `$...$`. 
 
 
 

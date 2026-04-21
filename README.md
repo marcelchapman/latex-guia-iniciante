@@ -65,7 +65,7 @@ O prompt passou a produzir um resultado prático e reutilizável, alinhado com o
 - É especialmente útil para lidar com fórmulas matemáticas e para organizar referências e numerações de forma totalmente automática.
 
 2.	Estrutura básica de um documento.  
-Um documento em LaTeX é dividido em duas partes principais: preâmbulo e corpo do documento.
+- Um documento em LaTeX é dividido em duas partes principais: preâmbulo e corpo do documento.
 - Preâmbulo: define configurações como tipo de documento, pacotes e metadados (título, autor).
 - Corpo do documento: onde o conteúdo é escrito. 
 
